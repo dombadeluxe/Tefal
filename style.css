@@ -1,0 +1,407 @@
+
+.head {
+    width: 1800px;
+    margin: auto;
+    height: 125px;
+    background-color: #212121;   
+}
+
+.logo {
+    float: left;
+    width: 200px;
+    height: 125px;
+    margin-left: 50px;
+    background-color: white;
+    opacity: 0.9;
+}
+
+.nav-bar {
+    float:left;
+    width: 1500px;
+    margin-top: 70px;
+    background-color: none;
+    margin-left: 50px;
+
+}
+
+.bar {
+    width: 230px;
+    display: inline-block;
+    text-align: center;
+    background-color: #212121;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #9f6557;
+}
+
+
+.center {
+    margin: auto;
+    width: 1800px;
+    height: 1100px
+}
+
+.white {
+    color: white;
+    font-style: none;
+    text-decoration: none;
+}
+
+.ex1:hover, .ex1:active{
+    background-color: #930f34;
+}
+
+.drop-menu {
+    width: 190px;
+    position:absolute;
+    display: none;
+}
+
+.bar:hover  >  .drop-menu{
+    display: block;
+}
+
+.one {
+    color: white;
+    font-style: none;
+    text-decoration: none;
+}
+
+
+
+.down-one {
+    background-color: #800728;
+    text-decoration: none;
+    opacity: 0.9;
+    margin-top: 2px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #9f6557;
+    list-style:none;
+    opacity: 0.8;
+}
+
+
+.center-row {
+    width: 1800px;
+    height: 240px;
+    position: absolute;
+    top: 1000px;
+    background-color: white;
+    box-shadow: 0px -30px 40px 0px white;
+    opacity: 0.9;
+}
+
+
+.slider-one {
+    float: left;
+    width: 400px;
+    height: 200px;
+    overflow: hidden;
+    margin-left: 100px;
+    position: absolute;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #9f6557;
+    border-radius: 5%;
+}
+
+.slider-one ul {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    width: 400px;
+    
+    
+    
+    animation: change 20s infinite alternate linear;
+}
+
+.slider-one li {
+    width: 400px;
+    list-style: none;
+}
+
+.slider-two{
+    float: left;
+    width: 400px;
+    height: 200px;
+    overflow: hidden;
+    margin-left: 700px;
+    position: absolute;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #8da243;
+    border-radius: 5%;
+}
+
+.slider-two ul {
+    display: flex;
+    width: 400px;
+    padding: 0px;
+    margin: 0px;
+    
+    animation: change 20s infinite alternate linear;
+}
+
+.slider-two li {
+    list-style: none;
+    width: 400px;
+}
+
+.slider-tree {
+    float: left;
+    width: 400px;
+    height: 200px;
+    overflow: hidden;
+    margin-left: 1300px;
+    position: absolute;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #9f6557;
+    border-radius: 5%;
+}
+
+.slider-tree ul {
+    display: flex;
+    width: 400px;
+    padding: 0px;
+    margin: 0px;
+    
+    animation: change 20s infinite alternate linear;
+}
+
+.slider-tree li {
+    list-style: none;
+    width: 400px;
+}
+@keyframes change  {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+    
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+    
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+    
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
+
+    
+
+    
+.h3one {
+    margin-left: 200px;
+    float: left;
+    color: white;
+    background-color:#9f6557; 
+    text-align: center;
+    width:200px;
+    margin-top:208px;
+    font-size: 18px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.h3two {
+    margin-left: 400px;
+    float: left;
+    color: white;
+    background-color:#8da243;
+    text-align: center;
+    width:208px;
+    margin-top:208px;
+    font-size: 18px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.h3tree {
+    margin-left: 400px;
+    float: left;
+    color: white;
+    background-color:#9f6557; 
+    text-align: center;
+    width:200px;
+    margin-top:208px;
+    font-size: 18px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.white {
+    color: white;
+}
+
+
+.footer {
+    margin: auto;
+    margin-top: 50px;
+    height: 130px;
+    width: 1800px;
+    background-color: white;
+    box-shadow: 0px -10px 20px 0px white;
+}
+
+.icon-list {
+    float:left;
+    margin-top: 30px;
+    margin-left: 650px;
+    position: absolute;
+    width: 500px;
+    height: auto;
+    background-color: white;
+    opacity: 0.7;
+}
+
+.icon {
+    float: left;
+    margin-left: 50px;
+}
+
+.orange {
+    background-color: #800728;
+}
+
+.ex1:hover,  .ex1:acitve {
+    background-color: #800728;
+}
+
+
+
+.li-icon-title {
+    width: 80px;
+    display: inline-block;
+    float: left;
+    text-align: center;
+}
+
+.icon-title {
+    float:left;
+    margin-top: 60px;
+    margin-left: 640px;
+    width: 500px;
+    height: auto;
+    background-color: white;
+}
+
+.left-one {
+    margin-left: 10px;
+}
+
+.left-two {
+    margin-left: 10px
+}
+
+.left-tree {
+    margin-left: 11px;
+}
+
+.left-four {
+    margin-left: 11px;
+}
+
+
+.container {
+    height: 1794px;
+    margin: 0 auto;
+}
+
+
+
+
+
+.hr-line-one {
+    width: 1800px;
+    background-color: black;
+}
+
+.footer-off {
+    margin: auto;;
+    width: 1800px;
+    height: 200px;
+    background-color: #212121;
+}
+
+
+
+.table-one {
+    margin: auto;
+}
+
+th {
+    width: 200px;
+    text-align: center;
+    color: white;
+    border-bottom-color:#8da243;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+td {
+    text-align: center;
+    color: white;
+    
+}
+
+.on-footer {
+    margin: auto;
+margin-top: 50px;
+    width: 1800px;
+    height: 120px;
+}
+
+.tone {
+     width: 200px;
+    text-align: center;
+    color: black;
+    border-bottom-color:#8da243;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    
+}
+
+.table-two {
+    margin: auto;
+}
+
+.hone {
+    width: 200px;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+}
+
+.ex2:hover, .ex2:active  {
+    background-color: #930f34;
+    color: white;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.icon-list-color {
+    color: black;
+}
+
+.ex3:hover , .ex3:active {
+    color: #930f34;
+}
+
+.black {
+    color: black;
+}
+
+body {
+    font-family: "Lucida Sans", Verdana, sans-serif;
+}
